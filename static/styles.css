@@ -91,7 +91,6 @@ ul {
     left: -10px;
     cursor: pointer;
     background: #fff;
-    transition: all 0.4s ease-in;
 }
 
 .hamburger-middle {
@@ -102,24 +101,6 @@ ul {
     transform: translateY(8px);
 }
 
-
-.open {
-    transform: rotate(90deg);
-    top: 61.5px;
-    right: 25px;
-}
-
-.open .hamburger-top {
-    transform: rotate(45deg);
-}
-
-.open .hamburger-middle {
-    opacity: 0;
-}
-
-.open .hamburger-bottom {
-    transform: rotate(-45deg);
-}
 
 .section-a {
     background-image: url('bg2.jpg');
