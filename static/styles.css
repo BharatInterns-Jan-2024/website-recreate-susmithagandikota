@@ -309,20 +309,3 @@ footer ul li a:hover {
     margin: 0 auto 20px;
     background-color: #fff;
 }
-
-@property --num {
-    syntax: '<integer>';
-    initial-value: 0;
-    inherits: false;
-  }
-  
-  .stats div {
-    transition: --num 1s;
-    counter-reset: num var(--num);
-  }
-  .stats div:hover {
-    --num: 294;
-  }
-  .stats div::after {
-    content: counter(num);
-  }
